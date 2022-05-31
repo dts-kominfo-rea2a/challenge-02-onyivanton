@@ -24,15 +24,14 @@ function lakukanLooping(arrPegawai) {
       Contoh: ["Aisyah Nirmala", "Mansur Faisal", ...]
   */
       let panjangArray=dataYangAkanDilooping.length;
-
+  
       let hasilLooping = null;
       
       myData=[];
       for(let i = 0; i <  panjangArray; i++){ 
         let namagabung = dataYangAkanDilooping[i]; 
         // console.log(namagabung.namaDepan+" "+namagabung.namaBelakang);
-        myData.push(namagabung.namaDepan+" "+namagabung.namaBelakang);
-        i += 1;
+        myData.push(namagabung.namaDepan+" "+namagabung.namaBelakang);        
       }
       
       hasilLooping=myData;
@@ -49,8 +48,7 @@ function lakukanLooping(arrPegawai) {
     // console.log(namagabung.namaDepan+" "+namagabung.namaBelakang);
     if(jKel.jenisKelamin=="M"){
       jumlahPria += 1;
-    }
-    i += 1;
+    }    
   }
   
   
@@ -65,8 +63,7 @@ function lakukanLooping(arrPegawai) {
     // console.log(namagabung.namaDepan+" "+namagabung.namaBelakang);
     if(jKel.jenisKelamin=="F"){
       jumlahWanita += 1;
-    }
-    i += 1;
+    }    
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
